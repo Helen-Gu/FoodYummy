@@ -1,0 +1,16 @@
+{% extends "homepage.html" %}
+{% block bottom_empty %}
+<script type='text/javascript' src="{{ url_for('static', filename='js/editprofile.js') }}"></script>
+<div class="container">
+<form method="get">
+<select class="selectpicker" onchange="getUserInfo(this)">
+	{% for user in users %}
+	<option value={{user.id}}>{{user.id}} - {{ user.username }}</option>
+	{% endfor %}
+</select>
+</form>
+
+<div id="results">
+</div>
+</div>
+{% endblock %}

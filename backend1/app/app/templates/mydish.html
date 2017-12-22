@@ -1,0 +1,44 @@
+{% extends "myrecipe.html" %}
+{% block abc %}
+ </section>
+	<!-- END #fh5co-header -->
+<section id="blog">
+	<div class="container-fluid">
+		<div class="row fh5co-post-entry">
+			{% for n in r %}
+			<article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+				<figure>
+					<img src="{{ url_for('static',filename=n.prl) }}" alt="Image" class="img-responsive">
+				</figure>
+				<h2 class="fh5co-article-title"><a href="single.html">{{ n.parent.title }}</a></h2>
+				<span class="fh5co-meta fh5co-date">{{ n.created.date() }}</span>
+			</article>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<div class="page-turn">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <nav>
+                <ul class="pagination pagination-sm">
+                    <li class="disabled">
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">Prev</span>
+                        </a>
+                    </li>
+                    <li class="active"><a href="index.html">1</a></li>
+                    <li><a href="page2.html">2</a></li>
+                    <li><a href="page3.html">3</a></li>
+                    <li><a href="page4.html">4</a></li>
+                    <li><a href="page5.html">5</a></li>
+                    <li><a href="page6.html" aria-label="Next">
+                    	<span aria-hidden="true">Next</span>
+                    </a></li>
+                </ul> <!-- /.pagination -->
+            </nav>
+        </div>
+    </div>
+</div> <!-- /.page-turn -->
+{% endblock %}

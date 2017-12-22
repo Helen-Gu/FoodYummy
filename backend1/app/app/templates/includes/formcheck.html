@@ -1,0 +1,6 @@
+{% macro render_field(field) %}
+{{ field.label }}: {{ field(**kwargs)|safe }}
+
+<span class="help-inline" id={{"err-"+ field.name}}>{{error}}</span>
+
+{% endmacro %}

@@ -1,0 +1,64 @@
+{% extends "myrecipe.html" %}
+{% block abc %}
+        <div class="probootstrap-tab-style-1">
+          <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
+            <li class="active"><a data-toggle="tab" href="#new-dishes">Recent Work</a></li>
+            <li><a data-toggle="tab" href="#new-recipes">New Recipes</a></li>
+          </ul>
+        </div>
+      </section>
+
+     <section class="probootstrap-section">
+        <div class="container">
+            <div class="tab-content">
+            <div id="new-dishes" class="tab-pane fade in active">
+          <div class="row">
+
+            {% for n in d %}
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{ url_for('static',filename=n.prl) }}" alt="" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3>{{ n.parent }}</h3>
+                  <span class="probootstrap-date"><i class="icon-calendar"></i>{{ n.created.strftime('%B %d %Y - %H:%M:%S') }}</span>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+        <div id="new-recipes" class="tab-pane fade">
+          <div class="row">
+            {% for n in r %}
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="../recipe/{{ n.rid }}" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{ url_for('static',filename=n.prl) }}" alt="" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3>{{ n.parent }}</h3>
+                  <span class="probootstrap-date"><i class="icon-calendar"></i>{{ n.ts.strftime('%B %d %Y - %H:%M:%S') }}</span>
+                      <ul class="blog_post_info">
+                          <li>{{ n.kind }}</li>
+                          <li>{{ n.region }}</li>
+                          <li>{{ n.ming }}</li>
+                      </ul>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="row">
+                <div class="col-md-12 text-center" id="uploadbutton">
+                  <a href="{{ url_for('main.uploadRecipe') }}" class="btn btn-primary">Upload New Recipe</a>
+                </div>
+            </div>
+            <!--individual content-->
+        </div>
+        </div>
+    </div>
+</section>
+
+
+</div>
+{% endblock %}

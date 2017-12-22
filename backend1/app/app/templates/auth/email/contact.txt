@@ -1,0 +1,8 @@
+Dear admin, 
+	
+	We are sent with following message
+	{{ form.comment }}
+	by user {{ form.name }} - mail info: {{ form.email }}
+	
+With loads of love,
+FoodYummy Team

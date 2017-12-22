@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="author" content="HELEN" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.jpg">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kalam|Lekton|Lobster+Two|Indie+Flower|Poiret+One" rel="stylesheet">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="{{url_for("static", filename='css/animate.css')}}">
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="{{url_for("static", filename='css/icomoon.css')}}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{url_for("static", filename='css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url_for("static", filename='css/style2.css')}}">
+    <link rel="stylesheet" href="{{url_for("static", filename='css/homepage.css')}}">
+    <link rel="stylesheet" href="{{url_for("static", filename='css/responsive.css')}}">
+    <script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+              $('#blah').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+          }
+        }
+
+        $("#imgInp").change(function() {
+          readURL(this);
+        });
+    </script>
+</head>
+<body>
+
+<section id="hero-area">
+    <img class="img-responsive" src="../static/images/spaghetti.jpg" alt="">
+</section>
+<!--
+Header start
+============================== -->
+<nav id="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">
+                                    FOOD YUMMY
+                                </a>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right" id="top-nav">
+
+                                    <li><a href="{{url_for('main.dashboard')}}">HOME</a></li>
+                                    <li><a href="{{url_for('main.index')}}">SEARCH</a></li>
+                                                                    <li>
+                                  {% if current_user.is_authenticated %}
+                                  <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.logout') }}'">LOG OUT</button>
+									 {% else %}
+									 <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.login') }}'">LOG IN</button>
+									{% endif %}
+                              </li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div><!-- .col-md-12 close -->
+        </div><!-- .row close -->
+    </div><!-- .container close -->
+</nav><!-- header close -->
+<!-- Slider -->
+
+
+<div class="container">
+    <hr>
+     <div class="row"> 
+      <div class="col-md-7 col-md-push-1  probootstrap-animate" id="probootstrap-content">   
+      <h2>Upload Your Recipe!</h2>
+      <br>
+        <form action="" method="post" class="probootstrap-form" runat="server" enctype="multipart/form-data">
+             <div class="form-group">
+                <label for="subject">Title</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Image</label>
+                <input type="file" onchange="readURL(this);" id="imgInp" accept=".jpg, .jpeg, .png" name="prl" required>
+                <figure class="upload_img"><img id = "blah" alt="" /></figure>
+            </div>
+            <div class="form-group">
+              <label for="message">Description</label>
+              <textarea cols="30" rows="5" class="form-control" id="message" name="desc" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="id_label_multiple" style="color: black;">
+                    Origin <br>
+                    <select class="js-example-basic-multiple js-states form-control" name="origin">
+
+                        <option value="Russia">Russia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="France">France</option>                        
+                        <option value="All">All</option>
+                    </select>
+                </label>
+                <label for="id_label_multiple" style="color: black;">
+                    Category <br>
+                    <select class="js-example-basic-multiple2 js-states form-control" name="category">
+
+                        <option value="dessert">dessert</option>
+                        <option value="meal">meal</option>
+                    </select>
+                </label>
+                <label for="id_label_multiple" style="color: black;">
+                    Main Ingredient <br>
+                    <select class="js-example-basic-multiple3 js-states form-control" name="main-ing">
+                        <option value="pork">Pork</option>
+                        <option value="seafood">Seafood</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="beef">Beef</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="egg">Egg</option>
+                        <option value="butter">Butter</option>
+                        <option value="flour">Flour</option>
+                        <option value="All">All</option>
+                    </select>
+                </label>
+            </div>         
+            <div class="form-group">
+              <label for="message">Ingredients</label>
+              <textarea cols="30" rows="4" class="form-control" id="message" name="ingre" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="message">Steps</label>
+              <textarea cols="30" rows="10" class="form-control" id="message" name="steps" required></textarea>
+            </div>
+            <br>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Upload Your recipe!">
+            </div>
+        </form>
+      </div>
+  </div>
+</div>
+</div>
+     <footer>
+        <div class="container">
+            <div class="row">
+                <!-- copyright -->
+                <div class="col-md-4 col-sm-4">
+                    Copyright &copy; 2017
+                    <br>
+                    All rights reserved by <a href="{{url_for('main.index')}}" style="margin-left: 4px;">Food Yummy</a>
+                </div>
+                <!-- footer-nav -->
+                <ul class="footer-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></li>
+                </ul> <!-- /.footer-nav -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="../static/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../static/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../static/js/jquery.nicescroll.min.js" type="text/javascript"></script>
+    <script src="../static/js/superfish.min.js" type="text/javascript"></script>
+    <script src="../static/js/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="../static/js/owl.carousel.js"></script>
+    <script src="../static/js/animate.js" type="text/javascript"></script>
+    <script src="../static/js/myscript.js" type="text/javascript"></script>
+
+    
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="../static/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../static/js/jquery.waypoints.min.js"></script>
+    <!-- Main JS -->
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
+

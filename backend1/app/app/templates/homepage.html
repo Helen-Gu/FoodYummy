@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>FoodYummy</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href=" ../static/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href=" ../static/css/slick-theme.css"/>
+        <link rel="icon" href="favicon.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kalam|Lekton|Lobster+Two|Indie+Flower|Poiret+One" rel="stylesheet">
+
+		<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/animate.min.css">
+
+		<link rel="stylesheet" href="../static/css/homepage.css">
+		<link rel="stylesheet" href="../static/css/responsive.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+        <script src="../static/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="../static/js/jquery.nav.js"></script>
+        <script src="../static/js/jquery.sticky.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/plugins.js"></script>
+        <script src="../static/js/wow.min.js"></script>
+        <script src="../static/js/homepage.js"></script>
+        <script src=" ../static/js/slick.min.js"></script>
+    </head>
+	<body>
+    <section id="hero-area">
+      <img class="img-responsive" src="../static/images/spaghetti.jpg" alt="">
+    </section>
+	<nav id="navigation">
+               
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                                  <a class="navbar-brand" href="#">
+                                    FOOD YUMMY
+                                  </a>
+
+                            </div>
+
+						<div class="collapse navbar-collapse" id="myNavbar">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="{{url_for('main.dashboard')}}">HOME</a></li>
+                                  <li><a href="{{url_for('main.index')}}">SEARCH</a></li>
+                                <li><a href="#about-us">ABOUT US</a></li>
+                                <li><a href="#contact-us">CONTACT</a></li>
+                                  <li>
+                                  {% if current_user.is_authenticated %}
+                                  <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.logout') }}'">LOG OUT</button>
+									 {% else %}
+									 <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.login') }}'">LOG IN</button>
+									{% endif %}
+                              </li></ul>
+                            </div>
+                          </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</nav>
+
+ {% block bottom_empty %}
+<section id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="title">
+                            <h3>World-Wide <span>Recipes</span></h3>
+                        </div>
+                        <div class="slick-slider">
+                            <div><img src="../static/images/slide1.jpg" /></div>
+                            <div><img src="../static/images/slide2.jpg" /></div>
+                            <div><img src="../static/images/slide3.jpg" /></div>
+                            <div><img src="../static/images/slide4.jpg" /></div>
+                            <div><img src="../static/images/slide5.jpg" /></div>
+                            <div><img src="../static/images/slide6.jpg" /></div>
+                            <div><img src="../static/images/slide7.jpg" /></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+
+                        <h1 class="heading">Search <span>for a Recipe</span></h1><br>
+
+                        <form action = "#" method="post">
+                        <div class="search">
+
+                            <label for="id_label_multiple" style="color: white;">
+                                Select the region
+                                <select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" name="region">
+                                    <option value="All">All</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="China">China</option>
+                                    <option value="Canada">Canada</option>
+                                </select>
+                            </label>
+
+                            <label for="id_label_multiple2" style="color: white;">
+                                Select the category
+                                <select class="js-example-basic-multiple2 js-states form-control" id="id_label_multiple2" name="kind">
+                                    <option value="meal">meal</option>
+                                    <option value="dessert">dessert</option>
+                                </select>
+
+                            </label>
+
+                            <label for="id_label_multiple3" style="color: white;">
+                                Select the main ingredient
+                                <select class="js-example-basic-multiple3 js-states form-control" id="id_label_multiple3" name="ming">
+                                    <option value="All">All</option>
+                                    <option value="pork">pork</option>
+                                    <option value="rice">rice</option>
+                                    <option value="chicken">chicken</option>
+                                    <option value="beef">beef</option>
+                                    <option value="beef">butter</option>
+                                    <option value="beef">chocolate</option>
+                                </select>
+
+                            </label>
+
+
+                        </div>
+
+                        <!--<div class="search-wrap" style="color:white">-->
+                            <!--<br>-->
+                            <!--Search a recipe:-->
+                            <!--<input type="text" name="recipe">-->
+                            <br><br>
+                            <input style="color:gray" type="submit" value="Search">
+
+                        <!--</div>-->
+                        </form>
+
+                        <ul>
+                            {% for n in r %}
+
+                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                                <div class="blog-img">
+                                    <a href="/recipe/{{n.rid}}"> <img src={{ url_for("static",filename=n.prl) }} alt="blog-img"> </a>
+                                </div>
+                                <div class="content-right">
+                                    <h3>{{ n.title }}</h3>
+                                    <p>{{ n.desc }}</p>
+                                </div>
+                            </li>
+
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >About <span>FoodYummy</span> </br>
+                        </h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms"> A website for you to explore world wide recipes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"><span>CONTACT US</span></h1><br>
+                        <form method="POST" action="/contact">
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+                                <textarea name="comment" class="form-control" rows="3" placeholder="And your message :)" required></textarea>
+                            </div>
+
+                            <input type="submit" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" role="button" value="send your message">
+                        </form>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+
+        </div><!-- .container close -->
+    </section>
+
+    {% endblock %}
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="block wow fadeInUp"  data-wow-delay="800ms">
+                        <h3>CONTACT US<span> via</span></h3>
+                        <div class="col-md-6 info" >
+                                  <h4><i class="fa fa-phone"></i> Telephone</h4>
+                                  <p>(514)123-1234</p>
+                        </div >
+                        <div class="col-md-6 info">
+                                  <h4><i class="fa fa-envelope"></i> Email</h4>
+                                  <p>foodyummy307@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="block wow fadeInUp"  data-wow-delay="900ms">
+                        <a href="https://twitter.com/_FoodYummy_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_FoodYummy_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+             
+        </div>
+
+    </section>
+    <div id="reactClock" style="color:black"></div>
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copyright &copy; 2017 - All Rights Reserved. Design and Developed By <span>FoodYummy</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+
+    <script type="text/babel">
+        function tick() {
+            const element = (
+                    <div>
+                        <h3>It is {new Date().toLocaleTimeString()}.</h3>
+                    </div>
+            );
+            ReactDOM.render(
+                element,
+                document.getElementById('reactClock')
+            );
+        }
+
+        setInterval(tick, 1000);
+
+    </script>
+
+    </body>
+</html>

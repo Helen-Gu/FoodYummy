@@ -1,0 +1,38 @@
+<div class="page-header">
+<h1>{{ user.username }}</h1>
+<p>
+Email: {{ user.email }}
+</p>
+<p>
+Role: {{ user.role.name }}
+</p>
+<p>
+Confirmed: {{ user.confirmed }}
+</p>
+
+	{% if current_user.is_admin() %}
+	<p><a href="mailto:{{ user.email }}">{{ user.email }}</a></p>
+	{% endif %}
+
+	<p>
+	Last seen: {{ user.last_seen }}.
+	</p>
+</div>
+<br>
+<form id="user-form" method="post">
+{% from "includes/formcheck.html" import render_field %}
+	{% for field in form %}
+	<div class="form-group">
+	{% if field.name == "submit" %}
+	      <input type="submit" class="btn btn-primary" onclick="submit()">submit</div>
+	{% else %}
+
+		{{render_field(field, class_="form-control")}}
+    {% endif %}
+	</div>
+
+    {% endfor %}
+
+    <input type="hidden" name="user" value={{user.id}}>
+</form>
+<div class="alert alert-success" id="status"></div>

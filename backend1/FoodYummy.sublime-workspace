@@ -1,0 +1,1376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"recipes"
+			],
+			[
+				"reci",
+				"recipe_id"
+			],
+			[
+				"cre",
+				"created_time"
+			],
+			[
+				"comment",
+				"comment"
+			],
+			[
+				"fol",
+				"following"
+			],
+			[
+				"R",
+				"ReferenceField"
+			],
+			[
+				"E",
+				"EditProfileAdminForm"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"cu",
+				"current_app"
+			],
+			[
+				"path",
+				"path_to_fakes"
+			],
+			[
+				"pa",
+				"path_to_fakes"
+			],
+			[
+				"for",
+				"forgery_py"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"sta",
+				"staticmethod"
+			],
+			[
+				"ed",
+				"editprofile-admin"
+			],
+			[
+				"res",
+				"request_id"
+			],
+			[
+				"ero",
+				"error"
+			],
+			[
+				"mogo",
+				"mongoengine"
+			],
+			[
+				"is",
+				"is_permitted"
+			],
+			[
+				"per",
+				"permission"
+			],
+			[
+				"permis",
+				"permissions"
+			],
+			[
+				"ROLE",
+				"role"
+			],
+			[
+				"int",
+				"IntField"
+			],
+			[
+				"mail",
+				"Mail"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"F",
+				"FoodYummy"
+			],
+			[
+				"S",
+				"SubmitField"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"logout",
+				"logout_user"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"add",
+				"add_user"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"p_clos",
+				"p_closest"
+			],
+			[
+				"vertic",
+				"vertices"
+			],
+			[
+				"f",
+				"for	for (…) {…}"
+			],
+			[
+				"gete",
+				"getElementsByClassName"
+			],
+			[
+				"blockq",
+				"blockquote"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"top",
+				"top-header-wrapper"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"st",
+				"stay-updated"
+			],
+			[
+				"subti",
+				"subtitle"
+			],
+			[
+				"sub",
+				"subtitle"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"if",
+				"ifeq"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"s",
+				"__Super__"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"pre",
+				"prefixSum"
+			],
+			[
+				"make",
+				"makeN"
+			],
+			[
+				"STR",
+				"string11"
+			],
+			[
+				"tru",
+				"TRUE"
+			],
+			[
+				"tei",
+				"templateinvocation"
+			],
+			[
+				"te",
+				"templatedef"
+			],
+			[
+				"in",
+				"INNERTEXT"
+			],
+			[
+				"de",
+				"def_name"
+			],
+			[
+				"def",
+				"def_name"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"temp",
+				"templateinvocation"
+			],
+			[
+				"eval",
+				"evalWML"
+			],
+			[
+				"ca",
+				"case"
+			],
+			[
+				"IN",
+				"INNERTEXT"
+			],
+			[
+				"en",
+				"env1"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"bin",
+				"bindings"
+			],
+			[
+				"b",
+				"notBody"
+			],
+			[
+				"d",
+				"dparams"
+			],
+			[
+				"resl",
+				"result_str"
+			],
+			[
+				"bi",
+				"binding_names"
+			],
+			[
+				"call",
+				"call_fn"
+			],
+			[
+				"evale",
+				"evalDef"
+			],
+			[
+				"bing",
+				"bindings"
+			],
+			[
+				"template",
+				"templateinvocation"
+			],
+			[
+				"pars",
+				"parseTemplateDef"
+			],
+			[
+				"eva",
+				"evalWML"
+			],
+			[
+				"inn",
+				"INNERDTEXT"
+			],
+			[
+				"out",
+				"OUTERTEXT"
+			],
+			[
+				"parseI",
+				"parseTemplateInvocation"
+			],
+			[
+				"defa",
+				"def_args"
+			],
+			[
+				"Str",
+				"str2"
+			],
+			[
+				"prin",
+				"printAST"
+			],
+			[
+				"par",
+				"parseTemplateDef"
+			],
+			[
+				"fiel",
+				"fieldIteration"
+			],
+			[
+				"ts",
+				"TSTART"
+			],
+			[
+				"tem",
+				"templatedef"
+			],
+			[
+				"c",
+				"continue"
+			],
+			[
+				"TR",
+				"treeString"
+			],
+			[
+				"parse",
+				"parseXtext"
+			],
+			[
+				"parseT",
+				"parseTemplateDef"
+			],
+			[
+				"TA",
+				"targNode"
+			],
+			[
+				"ite",
+				"itextNode"
+			],
+			[
+				"rs",
+				"rString"
+			],
+			[
+				"pae",
+				"parseTargs"
+			],
+			[
+				"pas",
+				"parseItext"
+			],
+			[
+				"parsed",
+				"parseTemplateDef"
+			],
+			[
+				"inner",
+				"INNERTEXT"
+			],
+			[
+				"TP",
+				"tparam"
+			],
+			[
+				"TEIN",
+				"templateinvocation"
+			],
+			[
+				"OUTER",
+				"outer"
+			],
+			[
+				"fri",
+				"friends"
+			],
+			[
+				"new",
+				"newfriend"
+			],
+			[
+				"show",
+				"showprofile"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"ge",
+				"getKey"
+			],
+			[
+				"fi",
+				"friendsInfo"
+			],
+			[
+				"co",
+				"coindex"
+			],
+			[
+				"write",
+				"writeList"
+			],
+			[
+				"line",
+				"line"
+			],
+			[
+				"isv",
+				"isValidExpression"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"ex",
+				"exprs3"
+			],
+			[
+				"exp",
+				"exprs2"
+			],
+			[
+				"nex",
+				"nextToken"
+			],
+			[
+				"isV",
+				"isValidCommand"
+			],
+			[
+				"pi",
+				"printf	printf …"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"inpu",
+				"inputLine"
+			],
+			[
+				"A",
+				"Arrays"
+			],
+			[
+				"di",
+				"divisor"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"result",
+				"result_tmp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/templates/myrecipe.html",
+			"settings":
+			{
+				"buffer_size": 7974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/error.log",
+			"settings":
+			{
+				"buffer_size": 100731,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/recipe.html",
+			"settings":
+			{
+				"buffer_size": 10826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/static/js/homepage.js",
+			"settings":
+			{
+				"buffer_size": 1536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/static/config.rb",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/httpd.conf",
+			"settings":
+			{
+				"buffer_size": 20652,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "FoodYummy.wsgi",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "setup.sh",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.py",
+			"settings":
+			{
+				"buffer_size": 1214,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/api/auths.py",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pc in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 921.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/homepage.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/models.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/requirement.txt",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/auths.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/users.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/slick.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/manage.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/errors.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/recipe_and_dishes.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/includes/formcheck.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/recipe.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myfollowing.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/fakes/recipes/recipes.json",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/mydish.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/fakes/recipes/recipes - Copy.json",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/api/__pycache__/users.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/errors.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/editprofile-admin.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/editprofile-admin-form.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/editprofile.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/schemas.py",
+		"/C/Users/HiroAAA/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/httpd.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/config.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/includes/messages.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/decorators.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/editprofile.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/forms.py",
+		"/C/Users/HiroAAA/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/uploaddish.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_basics.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_user_model.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/email/confirmation.txt",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/unconfirmed.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/417 Robotics/RRT_Assignment/rrt_planner.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/403.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/email.py",
+		"/Q/Google Drive/LTI4RE.txt",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/login.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/run.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/404.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/500.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/FoodYummy.wsgi",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/access.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/error.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/extra/httpd-mpm.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/install.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/httpd.pid",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/config.rb",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myrecipe.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myspace.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/homepage.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/uploadrecipie.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/homepage.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/jquery.min.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/register.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/register.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/loginviews.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/bootstrap.min.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/loginlayout.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/login.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/bootstrap.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/THIRD-PARTY-NOTICES.dump",
+		"/C/xampp/htdocs/mySlim/index.php",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/Apache24/htdocs/mySlim/index.php",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/dbtest.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/login.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/loginviews.py",
+		"/C/xampp/htdocs/mySlim/composer.json",
+		"/Q/Video House/vid/fanvid ntvs/Archives/we want war.mp4.sfk",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/config.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/run.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/login.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/base.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/new.sublime-project",
+		"/Q/Small games/超苦逼冒险者v0.32/超苦逼冒险者v0.32.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/bootstrap.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/index.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/bootstrap-theme.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/style.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/Apache24/conf/httpd.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/httpd-2.4.29/build/install.sh",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/httpd-2.4.29/README",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/1509915339.layoutit.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/1509915339.layoutit.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/307 mini HW1/WelcomePage.html",
+		"/C/Users/HiroAAA/Documents/Python Scripts/drawSample.py",
+		"/Q/Books/Skill Walkthru/Languages/法语/flac/package.xml.dump",
+		"/C/Users/HiroAAA/Documents/Python Scripts/hillclimbing.py",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/items.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/stronghold.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/en/text/game/characters.stringtable.dump",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/en/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/interactables.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/gui.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data_expansion1/localized/sigua/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/backstory.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/debug.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data_expansion2/localized/sigua/text/game/characters.stringtable",
+		"/X/BaiduYunDownload/POE/patch/mod companions/check2.txt",
+		"/X/BaiduYunDownload/POE/patch/mod companions/eder1",
+		"/X/BaiduYunDownload/POE/patch/mod companions/eder2.txt",
+		"/X/BaiduYunDownload/POE/patch/mod companions/hiravas2.txt",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/itemmods.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/loadingtips.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/unassigned.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/factions.stringtable",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/test.html",
+		"/Q/Books/Skill Walkthru/Languages/法语/flac/package.xml",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/MyDES.java"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img ",
+			"search",
+			"js",
+			"scss",
+			"auth-api",
+			"recipe",
+			"Recipe",
+			"recipe",
+			"ecipe",
+			"Recipe",
+			"recipe",
+			"recipes",
+			"			'",
+			"_Exter",
+			"rid",
+			"can",
+			"UPLOAD_FO",
+			"\")}}\"",
+			"\"{{url_for(\"static\",filename=\"",
+			"img",
+			"..",
+			"../static/",
+			"../static",
+			"prl",
+			"os",
+			"prl",
+			"obje",
+			"（[^（]+[）$]",
+			"\\([^\\(]+[\\)$]",
+			"\\[[^\\[]+[\\]$]",
+			"Celine: ",
+			"Julien: ",
+			"Nana: ",
+			"Lulu: ",
+			"uncon",
+			"access",
+			"core",
+			"wsgi",
+			"profile",
+			"log in",
+			"login",
+			"filename='/",
+			"../static",
+			"url_for",
+			"url",
+			"{{",
+			"title",
+			"homepa",
+			"font",
+			"slick",
+			"slick/",
+			"img",
+			"slick",
+			"stati",
+			"static/static",
+			"static",
+			"slick/",
+			" sourceMappingURL=bootstrap.css.map",
+			")\n",
+			"db",
+			"content",
+			"sig",
+			"print",
+			"edges",
+			" 	  ",
+			"random",
+			"G[",
+			"nodes",
+			"希",
+			"母",
+			"艾",
+			"杜",
+			">\n",
+			"艾",
+			"UFO",
+			"li a",
+			" a ",
+			"color",
+			"script",
+			"sid",
+			"backgrou",
+			"body",
+			"prompt",
+			"top-header",
+			"span",
+			"name",
+			"kill",
+			"RELIEF",
+			"小丑",
+			"上帝",
+			"sis",
+			"没直",
+			"没直说",
+			"angel",
+			"ben",
+			"CONNECTION",
+			"doesn",
+			"does",
+			"kid",
+			"bollock",
+			"}\n",
+			"第",
+			"”",
+			"“",
+			"ass",
+			"spike",
+			"ass",
+			"mock",
+			"amish",
+			"阿",
+			"amish",
+			"use the for",
+			"chuck",
+			"form",
+			"gneration",
+			"stand",
+			"genera",
+			"breth",
+			"warn",
+			"brethren",
+			"注",
+			"stake",
+			"cemet",
+			"cemete",
+			"aure",
+			"注",
+			"布",
+			"286"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"')}}\"",
+			"\"{{url_for('static',filename='",
+			"{{url_for(\"static\",filename=\"",
+			"",
+			"filename='",
+			"{{url_for(\"static\")}}",
+			" ../static/css",
+			" ../static/",
+			" ",
+			"\"",
+			"holed",
+			"Γ",
+			" ",
+			"λ",
+			"xtextNode",
+			"a[field]",
+			"index",
+			"path",
+			"makeXXX",
+			"partition",
+			"node",
+			"unshift",
+			"shift",
+			"unshift",
+			"makeXXX",
+			"fHelper",
+			"frname",
+			"",
+			"result_tmp",
+			"temp",
+			"result_tmp",
+			"s2",
+			"s1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/templates/myrecipe.html",
+					"settings":
+					{
+						"buffer_size": 7974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2304,
+								2307
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/error.log",
+					"settings":
+					{
+						"buffer_size": 100731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 37734.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/recipe.html",
+					"settings":
+					{
+						"buffer_size": 10826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9601,
+								9601
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5592.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/static/js/homepage.js",
+					"settings":
+					{
+						"buffer_size": 1536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1528,
+								1528
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/static/config.rb",
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/httpd.conf",
+					"settings":
+					{
+						"buffer_size": 20652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15471,
+								15475
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10123.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "FoodYummy.wsgi",
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "setup.sh",
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								105
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config.py",
+					"settings":
+					{
+						"buffer_size": 1214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/api/auths.py",
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 259.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home",
+				"app/templates/homepage.html"
+			],
+			[
+				"man",
+				"manage.py"
+			],
+			[
+				"reci",
+				"app/templates/recipe.html"
+			],
+			[
+				"foll",
+				"app/templates/myfollowing.html"
+			],
+			[
+				"mydis",
+				"app/templates/mydish.html"
+			],
+			[
+				"model",
+				"app/models.py"
+			],
+			[
+				"edi",
+				"app/templates/editprofile-admin.html"
+			],
+			[
+				"confi",
+				"config.py"
+			],
+			[
+				"edit",
+				"app/templates/editprofile.html"
+			],
+			[
+				"upl",
+				"app/templates/uploaddish.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": false
+}

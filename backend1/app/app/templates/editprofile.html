@@ -1,0 +1,69 @@
+{% extends "myrecipe.html" %}
+{% block abc %}
+</section>
+<script src="{{ url_for('static', filename='js/register.js') }}"></script>
+
+<div class="container">
+    <hr>
+    <div class="row">
+        <!-- left column -->
+        <div class="col-md-3">
+            <div class="text-center">
+                <form class="form-horizontal" method='POST' id="myForm" runat="server" enctype="multipart/form-data">
+                    {% if current_user.avatar %}
+                    <img id = "blah" src="{{ url_for('static', filename=current_user.avatar) }}" class="profile" alt="" />
+                    {% else %}
+                    <img id = "blah" src="{{ url_for('static', filename='user/default.png') }}" class="profile" alt="" />
+                    {% endif %}
+                    <h3>Upload a different photo...</h3>
+                    <input type="file" onchange="readURL(this);" id="imgInp" name="avatar"
+                    accept=".jpg, .jpeg, .png" /><span class="help-inline" id="err-avatar"></span>
+                    <!-- </form> -->
+                    </div>
+        </div>
+        <!-- edit form column -->
+        <div class="col-md-9 personal-info">
+            
+            
+            <!--     <form class="form-horizontal"  id="myForm" method='POST'> -->
+            {{ form.hidden_tag }}
+            
+            <div class="form-group">
+                <label class="col-md-3 control-label">New Username:</label>
+                <div class="col-md-8">
+                    <input class="form-control" type="text" name="new_name">
+                        </div>      <div class="help-inline" id="err-new_name">{% for error in form.new_name.errors %}{{error}}{% endfor %}</div>
+            </div>
+            <!--
+             <div class="form-group">
+             <label class="col-md-3 control-label">Email:</label>
+             <div class="col-md-8">
+             <input class="form-control" type="text" value="xxx@gmail.com">
+             </div>
+             </div>
+             -->
+            <div class="form-group">
+                <label class="col-md-3 control-label">New Password:</label>
+                <div class="col-md-8">
+                    <input class="form-control" name="password" type="password" >
+                        </div>       <div class="help-inline" id="err-password">{% for error in form.password.errors %}{{error}}{% endfor %}</div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Confirm Password:</label>
+                <div class="col-md-8">
+                    <input class="form-control" name="confirm" type="password">
+                        </div>       <div class="help-inline" id="err-confirm"}}>{% for error in form.confirm.errors %}{{error}}{% endfor %}</div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label"></label>
+                <div class="col-md-8">
+                    <input type="button" class="btn btn-primary" value="Save Changes" onClick="checkForm()">
+                        <span></span>
+                        <input type="reset" class="btn btn-default" value="Cancel" onClick="clear()">
+                            </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
